@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-auto-rows: 300px;
+            grid-gap: 0px 50px;
+            margin: 0 100px;
+            ;
+        }
+
+        .item {
+            border-radius: 100%;
+        }
+
+        .A {
+            background-color: rgb(151, 216, 228);
+        }
+
+        .B {
+            background-color: rgb(14, 150, 173);
+            transition: border-radius 2s;
+        }
+
+        .C {
+            background-color: rgb(10, 82, 95);
+        }
+
+        .B:hover {
+            border-radius: 0%;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container">
+            <p class="item A"></p>
+            <p class="item B"></p>
+            <p class="item C"></p>
+        </div>
+
+
+</body>
+
+</html>

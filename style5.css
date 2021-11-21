@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(203, 207, 191);
+    color:rgb(66, 77, 48);
+    box-sizing: border-box;
+}
+p{
+    background-color: rgb(34, 48, 13);
+    color:rgb(194, 219, 155);
+    padding: 20px;
+    float: left;
+    width: 30%;
+    margin: 20px;
+}
+.box5{
+    float: right;
+    }
+
+
+
